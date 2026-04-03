@@ -1,0 +1,35 @@
+:root {
+  --bg: #0f0f10;
+  --panel: #171719;
+  --text: #f0f0ef;
+  --muted: #a2a2a0;
+  --accent: #f3be6d;
+  --line: #2e2e31;
+  --headline: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  --sans: 'Avenir Next', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  width: 100%;
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  background:
+    radial-gradient(circle at 15% 10%, rgba(243, 190, 109, 0.22), transparent 45%),
+    radial-gradient(circle at 86% 18%, rgba(111, 167, 255, 0.18), transparent 40%),
+    var(--bg);
+  color: var(--text);
+  font-family: var(--sans);
+}
+
+a {
+  color: inherit;
+}
